@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #faf5e4;
+}
+
+a{
+  text-decoration: none;
+  color: #004445;
+}
+
+header {
+  position: fixed;
+  color: #004445;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  background-color: #faf5e4;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 50px;
+}
+.name {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.hire-btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #004445;
+  color: #f8b400;
+  transition: 0.1s;
+}
+.hire-btn:hover {
+  background-color: #004445c9;
+  color: #ffffff;
+  scale: 1.05;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.left img {
+  width: 450px;
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+
+.content {
+  width: 40vw;
+}
+.content p {
+  text-align: justify;
+}
+.content h1 {
+  font-size: 70px;
+}
+.content button {
+  padding: 15px 30px;
+  border: none;
+  background-color: #004445;
+  color: #f8b400;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.content button:hover {
+  background-color: #004445c9;
+  color: #ffffff;
+  scale: 1.05;
+}
+
+.about {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  font-size: 50px;
+  color: #004445;
+}
+.about-content {
+  height: 70vh;
+  width: 70vw;
+  border-radius: 25px;
+  background-color: #004445;
+  transition: 0.2s;
+  color: #faf5e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.about-content:hover {
+  box-shadow: 0px 0px 20px black;
+}
+.letter {
+  width: 60vw;
+  font-size: 20px;
+}
+
+.services {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px 300px;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #004445;
+  color: #faf5e4;
+  transition: 0.2s;
+}
+.card h1 {
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: rotate(5deg);
+  box-shadow: 15px 15px 0 black;
+}
+.card h1:hover {
+  transform: translateX(20px);
+}
+
+.contact {
+  display: flex;
+  height: 80vh;
+}
+
+.contact-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 90vh;
+}
+
+.contact-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 90vh;
+}
+
+.left-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 35vw;
+}
+
+.left-center h1 {
+  font-size: 100px;
+}
+
+.social-logo img {
+  width: 60px;
+  margin: 20px;
+}
+
+.contact-form input {
+  padding: 10px;
+  height: 20px;
+  width: 300px;
+  background: none;
+  border: 2px solid #004445;
+  border-radius: 5px;
+}
+.contact-form textarea {
+  padding: 10px;
+  height: 100px;
+  width: 300px;
+  background: none;
+  border: 2px solid #004445;
+  border-radius: 5px;
+}
+.contact-form label {
+  color: #004445;
+  font-size: 20px;
+}
+.contact-form input:hover{
+    border: 2px solid #f8b400;
+
+}
+.contact-form textarea:hover{
+      border: 2px solid #f8b400;
+
+
+}
+#contact-btn{
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #004445;
+  color: #f8b400;
+}
+#contact-btn:hover {
+  background-color: #004445c9;
+  color: #ffffff;
+  scale: 1.05;
+}
+
+footer{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #004445;
+}
+
+footer span{
+  color: #faf5e4;
+  margin: 30px;
+}
